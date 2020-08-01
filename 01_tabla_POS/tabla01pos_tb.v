@@ -1,11 +1,12 @@
-module ejemplo();
+module tabla01pos();
 
-// SOP del ejemplo de la guía
+// POS de la tabla 01
 
   reg A, B, C;
   wire nA, nB, nC, o1, o2, o3, Y;
 
   // not (salida, entrada);
+  // or (salida, entrada1, entrada2, entrada3, etc);
   // and (salida, entrada1, entrada2, entrada3, etc);
   not U1(nA, A);
   not U2(nB, B);
